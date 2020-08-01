@@ -1,0 +1,23 @@
+a.logo img {
+    max-height: 90px;
+}
+.header-right, .header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.nav-link :hover{
+    background-color: blue;
+    
+}
+#submit {
+    background-color:  #82b74b;
+    width: 20px;
+    height: 20px;
+}
+.list-nav li a:hover{
+    background-color: blue;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
