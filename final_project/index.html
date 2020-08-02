@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- animate.css -->
@@ -19,89 +19,99 @@
   <body>
   </head>
   <body>
-    
+    <!---------header đầu------------------------------------------->
+
+  <header class="header ml-4 mr-4">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-6 header-left">
+          <div class="logo-header">
+            <a class="logo" href="#" title="Trang chủ">
+              <img src="//uetcodehub.xyz/pluginfile.php/1/theme_lambda/logo/1585758506/banner.png"
+                class="img-responsive" alt="logo"> </a>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-md-6 header-right">
+          <form class="navbar-form " method="post"
+            action="https://uetcodehub.xyz/login/index.php?authldap_skipntlmsso=1">
+            <div id="block-login" class="row ">
+
+              <div class="row border ">
+                <div id="user"><i class="fa fa-user fa-lg "></i></div>
+                <input id="inputName" class="span2 " type="text" name="username" placeholder="Tên tài khoản">
+              </div>
+              <div class="row border ">
+                <div id="pass "><i class="fa fa-key fa-lg  "></i></div>
+                <input id="inputPassword" class="span2 " type="password" name="password" id="password"
+                  placeholder="Mật khẩu">
+              </div>
+
+              <button type="submit" id="submit"><i class="far fa-angle-right"></i></button>
+            </div>
+
+            <div class="forgotpass">
+              <a target="_self" href="#">Tạo tài khoản mới? Quên thông tin đăng nhập?</a>
+
+            </div>
+
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </header>
+
+ <!---------header cuối------------------------------------------->
+
+  <!---------------navbar đầu--------------------------------------->
+
+
+  <nav class="navbar navbar-expand-md navbar-light bg-dark ml-4 mr-4">
+    <a class="navbar-brand text-white " href="#">Codepower</a>
+    <button class="navbar-toggler d-lg-none " type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+        <li class="nav-item active  ">
+          <a class="nav-link text-white " href="#">Giới thiệu<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-white" href="#">Giảng viên đối tác</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-white" href="#">Nội quy</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Danh mục khóa học</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="dropdown-item text-dark bg-white" href="#">Ngôn ngữ lập trình</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-dark bg-white" href="#">Dữ liệu và thuật toán</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-dark bg-white" href="#">Cơ sở dữ liệu</a>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!---------------navbar cuối--------------------------------------->
     
       
     
-      <header class="header ml-4 mr-4">
-        <div class="container-fluid">
-          <div class="row">
-    
-    
-            <div class="col-md-6 header-left">
-              <div class="logo-header">
-                <a class="logo" href="https://uetcodehub.xyz" title="Trang chủ">
-                  <img src="//uetcodehub.xyz/pluginfile.php/1/theme_lambda/logo/1585758506/banner.png"
-                    class="img-responsive" alt="logo"> </a>
-              </div>
-            </div>
-    
-    
-    
-    
-            <div class="col-md-6 header-right " >
-              <form class="navbar-form " method="post"
-                action="https://uetcodehub.xyz/login/index.php?authldap_skipntlmsso=1">
-                <div id="block-login" class="row">
-                  <div id="user"><i class="fa fa-user"></i></div>
-                  <span for="inputName" class="lambda-sr-only"></span>
-                  <input id="inputName" class="span2" type="text" name="username" placeholder="Tên tài khoản">
-                  <div id="pass"><i class="fa fa-key"></i></div>
-                  <span for="inputPassword" class="lambda-sr-only">
-                    <input id="inputPassword" class="span2" type="password" name="password" id="password"
-                      placeholder="Mật khẩu">
-                    <button type="submit" id="submit"><span class="lambda-sr-only"></span></button>
-                </div>
-    
-                <div class="forgotpass">
-                  <a target="_self" href="https://uetcodehub.xyz/login/index.php">Tạo tài khoản mới? Quên thông tin đăng nhập?</a>
-    
-                </div>
-    
-              </form>
-    
-    
-            </div>
-          </div>
-        </div>
-        </div>
-    
-      </header>
-    
-      <nav class="navbar navbar-expand-md navbar-light bg-dark ml-4 mr-4 ">
-        <a class="navbar-brand text-white " href="#" >Codepower</a>
-        <button class="navbar-toggler d-lg-none " type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon " ></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active ">
-              <a class="nav-link text-white " href="#">Giới thiệu<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  text-white" href="#">Giảng viên đối tác</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  text-white" href="#">Nội quy</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danh mục khóa học</a>
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item text-dark bg-white" href="#">Ngôn ngữ lập trình</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item text-dark bg-white" href="#">Dữ liệu và thuật toán</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item text-dark bg-white" href="#">Cơ sở dữ liệu</a>
-              </div>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-    
-     
-    <!-- slideshow -->
+      
+    <!-- slideshow đầu -->
       <id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -225,6 +235,70 @@
     <span class="dot"></span> 
     <span class="dot"></span> 
   </div>
+
+
+
+  <!--image-box đầu/////-------- phần Các chuyên gia thiết kế chương trình-->
+
+  <div class="container-fluid ">
+    <h3>Các chuyên gia thiết kế chương trình</h3>
+    <br><hr>
+
+    <div class="row">
+
+
+      <div class="col-md-4">
+          <img src="images/longtq-200x200.jpg" class="img-responsive rounded-circle center-block mx-auto d-block">
+          <div class="image-box-content">
+            
+            <h4 style="text-align: center;">TS.
+              Trần Quốc Long</h4>
+            <p></p>
+            <ul>
+              <li>TS Khoa học máy tính tại Georgia Tech, Hoa Kỳ</li>
+              <li>Chủ nhiệm bộ môn KHMT, Trường ĐH Công nghệ, ĐHQGHN</li>
+              <li>15 năm kinh nghiệm dạy lập trình và thuật toán</li>
+            </ul>
+          </div>  
+      </div>
+
+      <div class="col-md-4">
+          <img src="images/lsq-200x200.jpg" class="img-responsive rounded-circle mx-auto d-block">
+          <div class="image-box-content">
+            <h4 style="text-align: center;">TS.
+              Lê Sỹ Quang</h4>
+            <p></p>
+            <ul>
+              <li>Huy chương bạc tin học quốc tế</li>
+              <li>Chuyên gia về thuật toán tại Google</li>
+              <li>20 năm kinh nghiệm về lập trình và thuật toán</li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <img src="images/thuandp-200x200.jpg" class="img-responsive rounded-circle mx-auto d-block"><!--ảnh tròn, căn giữa(lề tự động, hiển thị khối)-->
+          <div class="image-box-content">
+            <h4 style="text-align: center;">PGS.
+              TS. Đỗ Phan Thuận</h4>
+            <p></p>
+            <ul>
+              <li>Giảng viên Viện CNTT, Đại học Bách khoa Hà Nội</li>
+              <li>20 năm kinh nghiệm về lập trình và&nbsp;thuật toán</li>
+              <li>Huấn luyện viên đội tuyển Tin học Việt Nam</li>
+            </ul>
+          </div>
+      </div>
+
+    </div>
+<!--image-box cuối/////-------- phần Các chuyên gia thiết kế chương trình-->
+
+
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
