@@ -1,5 +1,3 @@
-
-
 header{
     border-top:2px solid #82b74b;
 }
@@ -24,7 +22,48 @@ li.nav-item:hover{
 .navbar-brand{
     background-color: #82b74b;/*màu chữ của codepower*/
 }
-
+/* link ------------------------------------------------------------------------------*/
+h4>a{
+    color: #82b74b;
+    text-decoration: none;
+}
+h4>a:hover{
+    text-decoration: none;
+    color: black;
+}
+/* dưới image-box*/
+.nut{
+    display: flex;
+    justify-content: end;
+}
+/*phần ảnh chạy đầu*/
+ a.men>img {
+    height: 30px;
+    width: auto;
+    max-width: 100%;
+    margin-top: 80px;
+}
+.dong{
+    height: 150px;
+}
+/*phần ảnh chạy cuối*/
+/*hover anh*/
+.face2{
+    display: none;
+}
+.dong:hover .face2{
+    display: block;
+    transform: translateY(-70px);
+}
+.dong:hover .face1{
+    transform: translateY(-70px);
+}
+/*logo anh cuối*/
+center a img{
+    height: 70px;
+    width: auto;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 .camera_caption{
@@ -58,3 +97,8 @@ span{
         padding: 0;
         width: 50%;
 }
+
+
+
+
+
