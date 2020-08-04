@@ -80,7 +80,7 @@ h1{
     padding: 0px 0px 0px 10px;
     font-size: 32px;
 }
-span{
+span.sub-heading {
     color: #fff;
     font: 14px "Open Sans", sans-serif;
     background: #00000080;
@@ -96,6 +96,76 @@ span{
         max-width: 75px;
         padding: 0;
         width: 50%;
+}
+/* dưới slideshow..................... */
+h4 a:hover {
+    color: #222;
+    text-decoration: none;
+}
+.su-menh-container {
+    padding-right: 20px;
+    line-height: 28px;
+}
+ul.colored-plus li:before {
+    font-family: FontAwesome;
+    content: "\f138";
+    display: inline-block;
+    margin: 0 0 0 -18px;
+    padding-right: 6px;
+    color: #82b74b;
+}
+.su-menh-container p, .su-menh-container li {
+    text-align: justify;
+}
+p {
+    margin: 0 0 10px;
+}
+.chaoMung{
+    display: flex;
+}
+/* iconbox ............................ */
+.iconcircle {
+    border: 1px solid #82b74b;
+    border-radius: 50%;
+    height: 82px;
+    line-height: 100px;
+    margin: 0 auto;
+    width: 82px;
+}
+.iconcircle i{
+    color: #82b74b;
+    font-size: 40px;
+    margin: 20px;
+}
+.iconcircle i:hover{
+    color: #fff;
+}
+.iconcircle:hover{
+    background-color: #82b74b;
+}
+
+li.activity {
+    background: inherit;
+    color: inherit;
+    border: inherit;
+    text-shadow: none;
+    /* padding: 8px; */
+    white-space: normal;
+    display: block;
+    font-size: inherit;
+    line-height: inherit;
+}
+li.activity{
+    display: flex;
+    width: 800px;
+}
+a.btn{
+    background-color: #82b74b;
+    color: #fff;
+}
+
+button.fa-play-circle{
+    background-color: #82b74b;
 }
 
 
