@@ -75,7 +75,7 @@ i.fa-check-circle{
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
+/* slidershow */
 .camera_caption{
     color: #555555 ;
     font: 14px "Open Sans", sans-serif;
@@ -97,16 +97,6 @@ span.sub-heading {
     margin: 0px 0px 0px 22.525px;
     padding: 10px 20px;
 }
-.line-01::after{
-   
-        background: #82b74b none repeat scroll 0 0;
-        content: "";
-        display: block;
-        height: 3px;
-        max-width: 75px;
-        padding: 0;
-        width: 50%;
-}
 /* dưới slideshow..................... */
 h4 a:hover {
     color: #222;
@@ -116,13 +106,8 @@ h4 a:hover {
     padding-right: 20px;
     line-height: 28px;
 }
-ul.colored-plus li:before {
-    font-family: FontAwesome;
-    content: "\f138";
-    display: inline-block;
-    margin: 0 0 0 -18px;
-    padding-right: 6px;
-    color: #82b74b;
+ul.colored-plus{
+    list-style-type: none;
 }
 .su-menh-container p, .su-menh-container li {
     text-align: justify;
@@ -176,6 +161,15 @@ a.btn{
 
 button.fa-play-circle{
     background-color: #82b74b;
+}
+.iconbox1{
+    background-color: #fbfbfb;
+}
+.iconbox2{
+    background-color: #f4f4f4;
+}
+.row :hover{
+    background-color: #efefef;
 }
 
 
