@@ -106,13 +106,8 @@ h4 a:hover {
     padding-right: 20px;
     line-height: 28px;
 }
-ul.colored-plus li:before {
-    font-family: FontAwesome;
-    content: "\f138";
-    display: inline-block;
-    margin: 0 0 0 -18px;
-    padding-right: 6px;
-    color: #82b74b;
+ul.colored-plus{
+    list-style-type: none;
 }
 .su-menh-container p, .su-menh-container li {
     text-align: justify;
