@@ -18,54 +18,56 @@
   </head>
   <body>
   </head>
-  <body>
+  <body >
+    
+  
     <!---------header đầu------------------------------------------->
 
-  <header class="header ml-4 mr-4">
-    <div class="container-fluid ">
+
+  <header class="header">
+
+    <div class="container-fluid mt-3 mb-3 ">
+
       <div class="row">
-        <div class="col-md-6 header-left">
-          <div class="logo-header">
+        
+        <div class="col-md-4 text-center">
+          
+            <div class="logo-header ml-5">
             <a class="logo" href="#" title="Trang chủ">
               <img src="//uetcodehub.xyz/pluginfile.php/1/theme_lambda/logo/1585758506/banner.png"
                 class="img-responsive" alt="logo"> </a>
-          </div>
+            </div>
+        
         </div>
 
+        <div class="col-md-3 "></div>
 
 
-
-        <div class="col-md-6 header-right">
-          <form class="navbar-form " method="post"
-            action="https://uetcodehub.xyz/login/index.php?authldap_skipntlmsso=1">
-            <div id="block-login" class="row ">
-
-              <div class="row border ">
-                <div id="user"><i class="fa fa-user fa-lg "></i></div>
-                <input id="inputName" class="span2 " type="text" name="username" placeholder="Tên tài khoản">
-              </div>
-              <div class="row border ">
-                <div id="pass "><i class="fa fa-key fa-lg  "></i></div>
-                <input id="inputPassword" class="span2 " type="password" name="password" id="password"
-                  placeholder="Mật khẩu">
-              </div>
-
-              <button type="submit" id="submit"><i class="far fa-angle-right"></i></button>
+        <div class="col-md-5 text-center mt-3">
+          
+          <form class="navbar-form block align-item-center" method="post" action="" >
+            
+            <div class="row text-center ml-5 ">
+            
+                <div >
+                  <i class="fa fa-user-o p-2 " style="background-color: #eeeeee;"></i>
+                  <input id="inputName" class="span2 " type="text" name="username" placeholder="Tên tài khoản">
+                </div>
+                <div>
+                  <i class="fa fa-key p-2" style="background-color: #eeeeee;"></i>
+                  <input id="inputPassword" class="span2 " type="password" name="password" id="password" placeholder="Mật khẩu">
+                  <button type="submit" id="submit"><i class="fa fa-chevron-right"></i></button>
+                </div> 
             </div>
 
-            <div class="forgotpass">
-              <a target="_self" href="#">Tạo tài khoản mới? Quên thông tin đăng nhập?</a>
-
+            <div class="forgotpass text-center">
+              <a target="" href="#">Tạo tài khoản mới? Quên thông tin đăng nhập?</a>
             </div>
 
           </form>
-
-
         </div>
       </div>
     </div>
-    </div>
-
   </header>
 
  <!---------header cuối------------------------------------------->
@@ -73,38 +75,38 @@
   <!---------------navbar đầu--------------------------------------->
 
 
-  <nav class="navbar navbar-expand-md navbar-light bg-dark ml-4 mr-4">
-    <a class="navbar-brand text-white " href="#">Codepower</a>
-    <button class="navbar-toggler d-lg-none " type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
-        <li class="nav-item active  ">
-          <a class="nav-link text-white " href="#">Giới thiệu<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  text-white" href="#">Giảng viên đối tác</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  text-white" href="#">Nội quy</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Danh mục khóa học</a>
-          <div class="dropdown-menu" aria-labelledby="dropdownId">
-            <a class="dropdown-item text-dark bg-white" href="#">Ngôn ngữ lập trình</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item text-dark bg-white" href="#">Dữ liệu và thuật toán</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item text-dark bg-white" href="#">Cơ sở dữ liệu</a>
-          </div>
-        </li>
-      </ul>
-
+  <nav class="navbar  navbar-dark navbar-expand-md mb-3 ">
+    <div class="container-fluid bg-dark">
+        <a href="#" class="navbar-brand  p-3">Codepower</a>
+        <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav " id="navScrollspy ">
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" href="#">Giới thiệu</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" href="#">Giảng viên đối tác</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link text-white" href="#">Nội quy</a>
+            </li>
+            <li class="nav-item dropdown p-2">
+                <a class="nav-link dropdown-toggle text-white " href="#" id="dropdownId" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Danh mục khóa học</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item text-dark bg-white " href="#">Ngôn ngữ lập trình</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text-dark bg-white" href="#">Dữ liệu và thuật toán</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text-dark bg-white" href="#">Cơ sở dữ liệu</a>
+                </div>
+              </li>
+          </ul>
+        </div>
     </div>
-  </nav>
+</nav>
 
   <!---------------navbar cuối--------------------------------------->
     
@@ -276,7 +278,7 @@
 </div>
   <!--image-box đầu/////-------- phần Các chuyên gia thiết kế chương trình-->
 
-  <div class="container-fluid ">
+
     <h3>Các chuyên gia thiết kế chương trình</h3>
     <br><hr>
 
@@ -291,9 +293,9 @@
               Trần Quốc Long</h4>
             <p></p>
             <ul>
-              <li>TS Khoa học máy tính tại Georgia Tech, Hoa Kỳ</li>
-              <li>Chủ nhiệm bộ môn KHMT, Trường ĐH Công nghệ, ĐHQGHN</li>
-              <li>15 năm kinh nghiệm dạy lập trình và thuật toán</li>
+              <li><i class="fa fa-chevron-circle-right"></i> TS Khoa học máy tính tại Georgia Tech, Hoa Kỳ</li>
+              <li><i class="fa fa-chevron-circle-right"></i> Chủ nhiệm bộ môn KHMT, Trường ĐH Công nghệ, ĐHQGHN</li>
+              <li><i class="fa fa-chevron-circle-right"></i> 15 năm kinh nghiệm dạy lập trình và thuật toán</li>
             </ul>
           </div>  
       </div>
@@ -305,9 +307,9 @@
               Lê Sỹ Quang</h4>
             <p></p>
             <ul>
-              <li>Huy chương bạc tin học quốc tế</li>
-              <li>Chuyên gia về thuật toán tại Google</li>
-              <li>20 năm kinh nghiệm về lập trình và thuật toán</li>
+              <li><i class="fa fa-chevron-circle-right"></i> Huy chương bạc tin học quốc tế</li>
+              <li><i class="fa fa-chevron-circle-right"></i> Chuyên gia về thuật toán tại Google</li>
+              <li><i class="fa fa-chevron-circle-right"></i> 20 năm kinh nghiệm về lập trình và thuật toán</li>
             </ul>
           </div>
       </div>
@@ -319,9 +321,9 @@
               TS. Đỗ Phan Thuận</h4>
             <p></p>
             <ul>
-              <li>Giảng viên Viện CNTT, Đại học Bách khoa Hà Nội</li>
-              <li>20 năm kinh nghiệm về lập trình và&nbsp;thuật toán</li>
-              <li>Huấn luyện viên đội tuyển Tin học Việt Nam</li>
+              <li><i class="fa fa-chevron-circle-right"></i> Giảng viên Viện CNTT, Đại học Bách khoa Hà Nội</li>
+              <li><i class="fa fa-chevron-circle-right"></i> 20 năm kinh nghiệm về lập trình và&nbsp;thuật toán</li>
+              <li><i class="fa fa-chevron-circle-right"></i> Huấn luyện viên đội tuyển Tin học Việt Nam</li>
             </ul>
           </div>
       </div>
@@ -359,9 +361,9 @@
     <a class="men" href="/cowell" target="_blank"><img class="mx-auto d-block face1 " src="images/cowell-logo-frontpage.png"></a>
     <div class=" face2 ml-4">
       <ul >
-        <li><span class="bold">Quy mô:</span> 300+ nhân viên</li>
-        <li><span class="bold">Lĩnh vực:</span> Xuất khẩu phần mềm</li>
-        <li><span class="bold">Thị trường:</span> Nhật Bản</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Quy mô:</span> 300+ nhân viên</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Lĩnh vực:</span> Xuất khẩu phần mềm</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Thị trường:</span> Nhật Bản</li>
       </ul>
       <center><a class="text-light m-1" style="background-color: #82b74b;" href="/savvycom" target="_blank" class="btn btn-default">Thử sức</a></center>
     </div>
@@ -372,9 +374,9 @@
     <a class="men" href="/savvycom" target="_blank"><img class="mx-auto d-block face1" src="images/savvycom-logo-frontpage.png"></a>
     <div class=" face2 ml-4">
       <ul>
-        <li><span class="bold">Quy mô:</span> 100+ nhân viên</li>
-        <li><span class="bold">Lĩnh vực:</span> Ứng dụng Web/Mobile/AI</li>
-        <li><span class="bold">Thị trường:</span> Quốc tế</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Quy mô:</span> 100+ nhân viên</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Lĩnh vực:</span> Ứng dụng Web/Mobile/AI</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Thị trường:</span> Quốc tế</li>
       </ul>
       <center><a class="text-light m-1" style="background-color: #82b74b;" href="/savvycom" target="_blank" class="btn btn-default">Thử sức</a></center>
     </div>
@@ -383,9 +385,9 @@
     <a class="men" href="/ominext" target="_blank"><img class="mx-auto d-block face1" src="images/ominext-logo-frontpage.png"></a>
     <div class=" face2 ml-4">
       <ul>
-        <li><span class="bold">Quy mô:</span> 200+ nhân viên</li>
-        <li><span class="bold">Lĩnh vực:</span> Phát triển ứng dụng Web/Mobile</li>
-        <li><span class="bold">Thị trường:</span> Nhật Bản</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Quy mô:</span> 200+ nhân viên</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Lĩnh vực:</span> Phát triển ứng dụng Web/Mobile</li>
+        <li><i class="fa fa-check-circle"></i><span class="bold">Thị trường:</span> Nhật Bản</li>
       </ul>
       <center><a class="text-light m-1" style="background-color: #82b74b;" href="/ominext" target="_blank" class="btn btn-default">Thử sức</a></center>
     </div>
@@ -439,7 +441,7 @@
 
 
 <!---phần footer-->
-<footer class="bg-secondary mt-5 container-fluid">
+<footer class="bg-secondary mt-5 ">
 <div class="row">
 <div class="col-md-4"></div>
 <div class="col-md-4"></div>
@@ -473,6 +475,7 @@
 
 
 </footer>
+
 
 
 

@@ -4,20 +4,17 @@ header{
 a.logo img {
     max-height: 90px;
 }
-.header-right, .header-left{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
 #submit{
     background-color: #82b74b;
 }
-
+.navbar-brand,.navbar-nav{
+    margin-left: -16px;
+}
 .dropdown:hover .dropdown-menu{ /*sổ xuống*/
     display: block;
 }
 li.nav-item:hover{
-    background-color: #82b74b;  /* hover vào các liên kết*/
+    background-color: #1e340c;  /* hover vào các liên kết*/
 }
 .navbar-brand{
     background-color: #82b74b;/*màu chữ của codepower*/
@@ -63,6 +60,27 @@ center a img{
     height: 70px;
     width: auto;
 }
+.footerlinks{
+    height: 50px;
+}
+/*----------icon-------------*/
+i.fa-chevron-circle-right{
+    background-color:white; color: #82b74b; border: #82b74b; border-radius: 50%
+}
+ul li {
+    list-style-type: none;
+}
+i.fa-check-circle{
+    background-color:#82b74b; color: white ; border: white; border-radius: 50%; 
+}
+
+
+
+
+
+
+
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
