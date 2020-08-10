@@ -1,3 +1,7 @@
+body{
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
 header, footer{
     border-top:2px solid #82b74b;
 }
@@ -14,10 +18,13 @@ a.logo img {
     display: block;
 }
 li.nav-item:hover{
-    background-color: #1e340c;  /* hover vào các liên kết*/
+    background-color: #1e340c ;  /* hover vào các liên kết*/
 }
 .navbar-brand{
     background-color: #82b74b;/*màu chữ của codepower*/
+}
+.dropdown-menu a:hover{
+    background-color: gray !important;
 }
 /* link ------------------------------------------------------------------------------*/
 h4>a{
@@ -168,7 +175,7 @@ button.fa-play-circle{
 .iconbox2{
     background-color: #f4f4f4;
 }
-.row :hover{
+.myiconbox :hover{
     background-color: #efefef;
 }
 
