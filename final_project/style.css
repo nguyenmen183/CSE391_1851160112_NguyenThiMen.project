@@ -2,14 +2,12 @@
     padding: 0;
     margin: 0;
 }
-
 .container{
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-
 .container {
     max-width: 95% !important;
 }
@@ -35,44 +33,30 @@ a.navbar-brand{
 .dropdown-menu a:hover{
     background-color: gray !important;
 }
-
-/* link ------------------------------------------------------------------------------*/
-
-
-h4>a{
-    color: #82b74b;
-    text-decoration: none;
-}
-h4>a:hover{
-    text-decoration: none; color: black;
-}
 /*phần ảnh chạy */
- a.men>img {
+ a.my-image>img {
     max-height: 30px;
     width: auto;
     margin-top: 80px;
 }
-.dong{
+.move{
     max-height: 150px;
 }
 /*hover anh*/
 .face2{
     display: none;
 }
-.dong:hover .face2{
+.move:hover .face2{
     display: block;
     transform: translateY(-70px);
 }
-.dong:hover .face1{
+.move:hover .face1{
     transform: translateY(-70px);
 }
 /*logo anh cuối*/
 center a img{
     max-height: 70px;
     width: auto;
-}
-.footerlinks{
-    max-height: 50px;
 }
 /*----------icon-------------*/
 i.fa-chevron-circle-right{
@@ -109,6 +93,13 @@ span.sub-heading {
     padding: 10px 20px;
 }
 /* dưới slideshow..................... */
+h4>a{
+    color: #82b74b;
+    text-decoration: none;
+}
+h4>a:hover{
+    text-decoration: none; color: black;
+}
 h4.no-overflow a:hover {
     color: #222;
     text-decoration: none;
