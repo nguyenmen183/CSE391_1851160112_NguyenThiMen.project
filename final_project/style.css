@@ -96,10 +96,6 @@ i.fa-check-circle{
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* slidershow */
-.carousel-caption{
-    color: #555555 ;
-    font: 14px "Open Sans", sans-serif;
-}
 
 h1.heading{
     color: #fff;
@@ -131,6 +127,7 @@ ul.colored-plus{
 .industry{
     text-align: center;
 }
+
 /* iconbox ............................ */
 .iconcircle {
     border: 1px solid #82b74b;
