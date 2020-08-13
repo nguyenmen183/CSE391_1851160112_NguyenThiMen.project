@@ -95,7 +95,7 @@ i.fa-check-circle{
     font: 14px "Open Sans", sans-serif;
 }
 
-h1{
+h1.heading{
     color: #fff;
     background: #82B74B;
 }
@@ -103,8 +103,8 @@ span.sub-heading {
     color: #fff;
     font: 14px "Open Sans", sans-serif;
     background: #00000080;
-    /* margin: 0px 0px 0px 22.525px;
-    padding: 10px 20px; */
+    margin: 0px 0px 0px 22.525px;
+    padding: 10px 20px;
 }
 /* dưới slideshow..................... */
 h4.no-overflow a:hover {
