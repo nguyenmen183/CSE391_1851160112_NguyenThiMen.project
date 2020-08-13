@@ -43,8 +43,8 @@ $(document).ready(function(){
       let chil2 =chil.children()
       chil2.css("color","#82b74b")
     });
-    $(".iconbox2").mouseleave(function () { 
-      $(this).css("background-color","#f4f4f4")
+    $(".iconbox").mouseleave(function () { 
+      $(this).css("background-color","#efefef")
     });
 
 })
