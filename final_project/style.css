@@ -31,6 +31,8 @@ li.nav-item:hover{
     margin-right: 30px;
 }
 /* link ------------------------------------------------------------------------------*/
+
+
 h4>a{
     color: #82b74b;
     text-decoration: none;
@@ -91,16 +93,11 @@ i.fa-check-circle{
 .carousel-caption{
     color: #555555 ;
     font: 14px "Open Sans", sans-serif;
-	margin: 0px 0px 20px;
 }
 
-h1{
+h1.heading{
     color: #fff;
-    font: 28px "Open Sans", sans-serif;
     background: #82B74B;
-    margin: 10px 22.522px 10px 20px;
-    padding: 0px 0px 0px 10px;
-    font-size: 32px;
 }
 span.sub-heading {
     color: #fff;
@@ -110,7 +107,7 @@ span.sub-heading {
     padding: 10px 20px;
 }
 /* dưới slideshow..................... */
-h4 a:hover {
+h4.no-overflow a:hover {
     color: #222;
     text-decoration: none;
 }
@@ -123,12 +120,10 @@ ul.colored-plus{
 }
 .su-menh-container p, .su-menh-container li {
     text-align: justify;
+    font-size: 1.15em;
 }
-p {
-    margin: 0 0 10px;
-}
-.chaoMung{
-    display: flex;
+.industry{
+    text-align: center;
 }
 /* iconbox ............................ */
 .iconcircle {
@@ -143,12 +138,7 @@ p {
     font-size: 40px;
     margin: 20px;
 }
-/* .iconcircle i:hover{
-    color: #fff;
-} */
-/* .iconcircle:hover{
-    background-color: #82b74b;
-} */
+
 a.btn{
     background-color: #82b74b;
     color: #fff !important;
@@ -162,11 +152,29 @@ button.fa-play-circle{
 .iconbox2{
     background-color: #f4f4f4;
 }
-/* .myiconbox :hover{
-    background-color: #efefef;
-} */
-
-
+.content{
+    text-align: center;
+}
+/*nút js*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #82b74b;
+    
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  #myBtn i{
+      font-size: 30px;
+  }
 
 
 
