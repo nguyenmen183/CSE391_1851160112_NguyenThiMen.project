@@ -83,7 +83,7 @@ i.fa-check-circle{
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* slidershow */
-.camera_caption{
+.carousel-caption{
     color: #555555 ;
     font: 14px "Open Sans", sans-serif;
 	margin: 0px 0px 20px;
@@ -130,7 +130,6 @@ p {
     border: 1px solid #82b74b;
     border-radius: 50%;
     height: 82px;
-    line-height: 100px;
     margin: 0 auto;
     width: 82px;
 }
@@ -139,33 +138,16 @@ p {
     font-size: 40px;
     margin: 20px;
 }
-.iconcircle i:hover{
+/* .iconcircle i:hover{
     color: #fff;
-}
-.iconcircle:hover{
+} */
+/* .iconcircle:hover{
     background-color: #82b74b;
-}
-
-li.activity {
-    background: inherit;
-    color: inherit;
-    border: inherit;
-    text-shadow: none;
-    /* padding: 8px; */
-    white-space: normal;
-    display: block;
-    font-size: inherit;
-    line-height: inherit;
-}
-li.activity{
-    display: flex;
-    width: 800px;
-}
+} */
 a.btn{
     background-color: #82b74b;
-    color: #fff;
+    color: #fff !important;
 }
-
 button.fa-play-circle{
     background-color: #82b74b;
 }
@@ -175,9 +157,9 @@ button.fa-play-circle{
 .iconbox2{
     background-color: #f4f4f4;
 }
-.myiconbox :hover{
+/* .myiconbox :hover{
     background-color: #efefef;
-}
+} */
 
 
 
