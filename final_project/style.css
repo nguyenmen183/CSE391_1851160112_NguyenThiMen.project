@@ -143,12 +143,7 @@ p {
     font-size: 40px;
     margin: 20px;
 }
-/* .iconcircle i:hover{
-    color: #fff;
-} */
-/* .iconcircle:hover{
-    background-color: #82b74b;
-} */
+
 a.btn{
     background-color: #82b74b;
     color: #fff !important;
@@ -162,9 +157,7 @@ button.fa-play-circle{
 .iconbox2{
     background-color: #f4f4f4;
 }
-/* .myiconbox :hover{
-    background-color: #efefef;
-} */
+
 
 /*nút js*/
 #myBtn {
